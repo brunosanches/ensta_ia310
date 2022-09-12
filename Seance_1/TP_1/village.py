@@ -27,6 +27,7 @@ class Village(mesa.Model):
 
 class ContinuousCanvas(VisualizationElement):
     local_includes = [
+        "./js/jquery.js",
         "./js/simple_continuous_canvas.js",
     ]
 
